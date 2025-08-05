@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="list_style.css" />
+  </head>
+  <body>
+      <div class="to_do_container">
+      <h2>My To-Do List 📝</h2>
+      <input
+        type="text"
+        id="list_input_text"
+        placeholder="Enter List Item...."
+      />
+      <div>
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="clearList()">Clear All</button>
+      </div>
+      <ul id="List_item"></ul>
+  </body>
+</html>
